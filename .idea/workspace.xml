@@ -9,20 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f1867f7-e743-4fc6-87d6-b93ed0ad5b28" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/java/test.java" afterDir="false" />
+    <list default="true" id="6f1867f7-e743-4fc6-87d6-b93ed0ad5b28" name="변경" comment="java의 정석 2권 연습">
+      <change afterPath="$PROJECT_DIR$/test/java/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +67,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.just">
+  <component name="RunManager" selected="JUnit.test2.arrayListLinkedListTest">
     <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaprac" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,11 +77,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test2.arrayListLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaprac" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test2" />
+      <option name="METHOD_NAME" value="arrayListLinkedListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.just" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaprac" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
       <option name="METHOD_NAME" value="just" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.linkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaprac" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="linkedListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,13 +196,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.test.just" />
+      <item itemvalue="JUnit.test.linkedListTest" />
+      <item itemvalue="JUnit.test2.arrayListLinkedListTest" />
       <item itemvalue="JUnit.test" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.52" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.just" />
+        <item itemvalue="JUnit.test2.arrayListLinkedListTest" />
+        <item itemvalue="JUnit.test.linkedListTest" />
         <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.just" />
       </list>
     </recent_temporary>
   </component>
@@ -205,8 +219,16 @@
       <option name="presentableId" value="Default" />
       <updated>1682945153452</updated>
       <workItem from="1682945154589" duration="2151000" />
-      <workItem from="1682947320705" duration="262000" />
+      <workItem from="1682947320705" duration="1802000" />
     </task>
+    <task id="LOCAL-00001" summary="java의 정석 2권 연습">
+      <created>1682947661277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682947661277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,10 +239,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java의 정석 2권 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="java의 정석 2권 연습" />
   </component>
 </project>
