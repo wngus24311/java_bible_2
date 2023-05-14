@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.xml.bind.util.ValidationEventCollector;
+import java.lang.reflect.Array;
 import java.util.*;
 
 @SpringBootTest
@@ -134,6 +135,62 @@ class DemoApplicationTests {
 			Object obj = it.next();
 			System.out.println(obj);
 		}
+
+	}
+
+	@Test
+	public void listIteratorTest() {
+		ArrayList list = new ArrayList();
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		list.add("4");
+		list.add("5");
+
+		ListIterator it = list.listIterator();
+
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+
+		System.out.println();
+
+		while (it.hasPrevious()) {
+			System.out.println(it.previous());
+		}
+
+		System.out.println();
+
+	}
+
+	@Test
+	public void iteratorTest2() {
+		ArrayList original = new ArrayList(10);
+		ArrayList copy1 = new ArrayList(10);
+		ArrayList copy2 = new ArrayList(10);
+
+		for (int i=0; i < 10; i++)
+			original.add(i + "");
+
+		Iterator it = original.iterator();
+
+		while (it.hasNext())
+			copy1.add(it.next());
+
+		System.out.println("= Original에서 copy1으로 복사(copy) =");
+		System.out.println("original : " + original);
+		System.out.println("copy1 : " + copy1);
+
+		it = original.iterator();
+
+		while (it.hasNext()) {
+			copy2.add(it.next());
+			it.remove();
+		}
+
+		System.out.println("= Original에서 copy2로 이동 (move) =");
+		System.out.println("origiinal : " + original);
+		System.out.println("cppy2 : " + copy2);
 	}
 
 }
